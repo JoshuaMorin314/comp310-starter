@@ -25,6 +25,16 @@ add_subdirectory(hello-lib)
 add_subdirectory(lwlog-lib)
 add_subdirectory(lwlog-demo)
 add_subdirectory(gtest-demo)
+add_subdirectory(WU1dir)
+add_subdirectory(WU2dir)
+add_subdirectory(WU3dir)
+add_subdirectory(WU4dir)
+add_subdirectory(WU5dir)
+add_subdirectory(WU6dir)
+add_subdirectory(WU7dir)
+add_subdirectory(WU8dir)
+add_subdirectory(WU9dir)
+add_subdirectory(WU10dir)
 
 # You can use add_subdirectory() to add your own work. 
 # Please don't remove the existing subdirectories.
