@@ -25,7 +25,6 @@ typedef struct LinkedList{
   Node* head; // pointer to the first node in the list
 } LinkedList;
 
-
 // adds a new node with value newData at the head of the list (pointing to the previous head)
 void push(LinkedList* L,int newData){
     Node* newHead=newNode(newData); // create a new node with a value of newData
@@ -71,20 +70,20 @@ void printList(LinkedList* L) {
 }
 
 int main(){
-    LinkedList* L=(LinkedList*)malloc(sizeof(LinkedList));
-
-    push(L,7);
-    push(L,1);
-    push(L,3);
-    push(L,2);
-
-    printf("\nCreated Linked list is:\n");
-    printList(L);
-
-    deleteNode(L,2);
-
-    printf("\nLinked List after Deletion of 1:\n");
-    printList(L);
-
-    return 0;
+  // create new LinkedList (stored as a pointer)
+  LinkedList* L=(LinkedList*)malloc(sizeof(LinkedList));
+  // add nodes
+  push(L,7);
+  push(L,1);
+  push(L,3);
+  push(L,2);
+  // print current list state
+  printf("\nCreated Linked list is:\n");
+  printList(L);
+  // delete a node
+  deleteNode(L,2);
+  // print current list state
+  printf("\nLinked List after Deletion of 1:\n");
+  printList(L);
+  return 0;
 }
