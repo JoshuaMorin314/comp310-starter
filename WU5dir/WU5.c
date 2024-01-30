@@ -1,5 +1,4 @@
 #include <stdio.h>
-//#include "matrix.c"
 
 typedef int type; // if you change this you also need to change the printf command in the printMatrix function to accommodate it
 // Define the Matrix structure ()
