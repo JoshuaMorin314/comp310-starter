@@ -1,3 +1,10 @@
+/*
+I used the following two sources for help no this:
+https://www.geeksforgeeks.org/typedef-in-c/
+  helped me understand typedef and typedef struct
+ChatGPT
+  helped me come up with the double pointer idea and how to use malloc()
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
