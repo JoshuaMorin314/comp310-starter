@@ -32,5 +32,7 @@ int main(){
   }
   fclose(fr); // close the file
 
+  printf("\n");
+
   return 0;
 }
